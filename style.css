@@ -1,0 +1,146 @@
+.container1 {
+    background-color: #F0FFDF;
+    display: flex;
+    flex-direction: column;
+}
+
+#iam {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #FFAAB8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+#role {
+    font-size: 20px;
+    color: #FFAAB8;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.starting-page {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50vh;
+    width: 100%;
+}
+#border-left {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: #A8DF8E;
+    width: 50px;
+    height: 100%;
+}
+
+ #border-right {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    background-color: #A8DF8E;
+    width: 50px;
+    height: 100%;
+ }
+
+ul {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#here-is {
+    color: #FFAAB8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.here {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFAAB8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 50px;
+    border: 50px solid #A8DF8E;
+    border-bottom: 50px solid #FFD8DF;
+}
+.bottom-container {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    background-color: #FFD8DF;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #FFAAB8;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #FFAAB8;
+    padding: 10px;
+}
+
+#first {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+#second {
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+#third {
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
+#last {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+}
+
+.boldy {
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
